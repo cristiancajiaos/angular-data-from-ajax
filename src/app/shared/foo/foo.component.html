@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let register of registers">
+      <td>{{register.id}}</td>
+      <td>{{register.firstName}}</td>
+      <td>{{register.lastName}}</td>
+    </tr>
+  </tbody>
+</table>
